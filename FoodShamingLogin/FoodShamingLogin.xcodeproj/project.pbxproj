@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94A971F018D8E684004CDD3E /* loadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A971EE18D8E684004CDD3E /* loadingViewController.m */; };
+		94A971F118D8E684004CDD3E /* loadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A971EF18D8E684004CDD3E /* loadingViewController.xib */; };
+		94FDD1B418D6D4D300C3683D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B318D6D4D300C3683D /* Foundation.framework */; };
+		94FDD1B618D6D4D400C3683D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B518D6D4D400C3683D /* CoreGraphics.framework */; };
+		94FDD1B818D6D4D400C3683D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B718D6D4D400C3683D /* UIKit.framework */; };
+		94FDD1BE18D6D4D400C3683D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FDD1BC18D6D4D400C3683D /* InfoPlist.strings */; };
+		94FDD1C018D6D4D400C3683D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDD1BF18D6D4D400C3683D /* main.m */; };
+		94FDD1C418D6D4D400C3683D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDD1C318D6D4D400C3683D /* AppDelegate.m */; };
+		94FDD1C618D6D4D400C3683D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FDD1C518D6D4D400C3683D /* Images.xcassets */; };
+		94FDD1CD18D6D4D400C3683D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1CC18D6D4D400C3683D /* XCTest.framework */; };
+		94FDD1CE18D6D4D400C3683D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B318D6D4D300C3683D /* Foundation.framework */; };
+		94FDD1CF18D6D4D400C3683D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B718D6D4D400C3683D /* UIKit.framework */; };
+		94FDD1D718D6D4D400C3683D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FDD1D518D6D4D400C3683D /* InfoPlist.strings */; };
+		94FDD1D918D6D4D400C3683D /* FoodShamingLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDD1D818D6D4D400C3683D /* FoodShamingLoginTests.m */; };
+		94FDD1E518D6D54C00C3683D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDD1E318D6D54C00C3683D /* MainViewController.m */; };
+		94FDD1E618D6D54C00C3683D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FDD1E418D6D54C00C3683D /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FDD1D018D6D4D400C3683D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FDD1A818D6D4D300C3683D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FDD1AF18D6D4D300C3683D;
+			remoteInfo = FoodShamingLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94A971ED18D8E684004CDD3E /* loadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadingViewController.h; sourceTree = "<group>"; };
+		94A971EE18D8E684004CDD3E /* loadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadingViewController.m; sourceTree = "<group>"; };
+		94A971EF18D8E684004CDD3E /* loadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loadingViewController.xib; sourceTree = "<group>"; };
+		94FDD1B018D6D4D300C3683D /* FoodShamingLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShamingLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FDD1B318D6D4D300C3683D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94FDD1B518D6D4D400C3683D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94FDD1B718D6D4D400C3683D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94FDD1BB18D6D4D400C3683D /* FoodShamingLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodShamingLogin-Info.plist"; sourceTree = "<group>"; };
+		94FDD1BD18D6D4D400C3683D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FDD1BF18D6D4D400C3683D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94FDD1C118D6D4D400C3683D /* FoodShamingLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodShamingLogin-Prefix.pch"; sourceTree = "<group>"; };
+		94FDD1C218D6D4D400C3683D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94FDD1C318D6D4D400C3683D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94FDD1C518D6D4D400C3683D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94FDD1CB18D6D4D400C3683D /* FoodShamingLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodShamingLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FDD1CC18D6D4D400C3683D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94FDD1D418D6D4D400C3683D /* FoodShamingLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodShamingLoginTests-Info.plist"; sourceTree = "<group>"; };
+		94FDD1D618D6D4D400C3683D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FDD1D818D6D4D400C3683D /* FoodShamingLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodShamingLoginTests.m; sourceTree = "<group>"; };
+		94FDD1E218D6D54C00C3683D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		94FDD1E318D6D54C00C3683D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		94FDD1E418D6D54C00C3683D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FDD1AD18D6D4D300C3683D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDD1B618D6D4D400C3683D /* CoreGraphics.framework in Frameworks */,
+				94FDD1B818D6D4D400C3683D /* UIKit.framework in Frameworks */,
+				94FDD1B418D6D4D300C3683D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FDD1C818D6D4D400C3683D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDD1CD18D6D4D400C3683D /* XCTest.framework in Frameworks */,
+				94FDD1CF18D6D4D400C3683D /* UIKit.framework in Frameworks */,
+				94FDD1CE18D6D4D400C3683D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94FDD1A718D6D4D300C3683D = {
+			isa = PBXGroup;
+			children = (
+				94FDD1B918D6D4D400C3683D /* FoodShamingLogin */,
+				94FDD1D218D6D4D400C3683D /* FoodShamingLoginTests */,
+				94FDD1B218D6D4D300C3683D /* Frameworks */,
+				94FDD1B118D6D4D300C3683D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94FDD1B118D6D4D300C3683D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FDD1B018D6D4D300C3683D /* FoodShamingLogin.app */,
+				94FDD1CB18D6D4D400C3683D /* FoodShamingLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FDD1B218D6D4D300C3683D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FDD1B318D6D4D300C3683D /* Foundation.framework */,
+				94FDD1B518D6D4D400C3683D /* CoreGraphics.framework */,
+				94FDD1B718D6D4D400C3683D /* UIKit.framework */,
+				94FDD1CC18D6D4D400C3683D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94FDD1B918D6D4D400C3683D /* FoodShamingLogin */ = {
+			isa = PBXGroup;
+			children = (
+				94FDD1C218D6D4D400C3683D /* AppDelegate.h */,
+				94FDD1C318D6D4D400C3683D /* AppDelegate.m */,
+				94FDD1C518D6D4D400C3683D /* Images.xcassets */,
+				94FDD1BA18D6D4D400C3683D /* Supporting Files */,
+				94FDD1E218D6D54C00C3683D /* MainViewController.h */,
+				94FDD1E318D6D54C00C3683D /* MainViewController.m */,
+				94FDD1E418D6D54C00C3683D /* MainViewController.xib */,
+				94A971ED18D8E684004CDD3E /* loadingViewController.h */,
+				94A971EE18D8E684004CDD3E /* loadingViewController.m */,
+				94A971EF18D8E684004CDD3E /* loadingViewController.xib */,
+			);
+			path = FoodShamingLogin;
+			sourceTree = "<group>";
+		};
+		94FDD1BA18D6D4D400C3683D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FDD1BB18D6D4D400C3683D /* FoodShamingLogin-Info.plist */,
+				94FDD1BC18D6D4D400C3683D /* InfoPlist.strings */,
+				94FDD1BF18D6D4D400C3683D /* main.m */,
+				94FDD1C118D6D4D400C3683D /* FoodShamingLogin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FDD1D218D6D4D400C3683D /* FoodShamingLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FDD1D818D6D4D400C3683D /* FoodShamingLoginTests.m */,
+				94FDD1D318D6D4D400C3683D /* Supporting Files */,
+			);
+			path = FoodShamingLoginTests;
+			sourceTree = "<group>";
+		};
+		94FDD1D318D6D4D400C3683D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FDD1D418D6D4D400C3683D /* FoodShamingLoginTests-Info.plist */,
+				94FDD1D518D6D4D400C3683D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94FDD1AF18D6D4D300C3683D /* FoodShamingLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FDD1DC18D6D4D400C3683D /* Build configuration list for PBXNativeTarget "FoodShamingLogin" */;
+			buildPhases = (
+				94FDD1AC18D6D4D300C3683D /* Sources */,
+				94FDD1AD18D6D4D300C3683D /* Frameworks */,
+				94FDD1AE18D6D4D300C3683D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodShamingLogin;
+			productName = FoodShamingLogin;
+			productReference = 94FDD1B018D6D4D300C3683D /* FoodShamingLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94FDD1CA18D6D4D400C3683D /* FoodShamingLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FDD1DF18D6D4D400C3683D /* Build configuration list for PBXNativeTarget "FoodShamingLoginTests" */;
+			buildPhases = (
+				94FDD1C718D6D4D400C3683D /* Sources */,
+				94FDD1C818D6D4D400C3683D /* Frameworks */,
+				94FDD1C918D6D4D400C3683D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FDD1D118D6D4D400C3683D /* PBXTargetDependency */,
+			);
+			name = FoodShamingLoginTests;
+			productName = FoodShamingLoginTests;
+			productReference = 94FDD1CB18D6D4D400C3683D /* FoodShamingLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FDD1A818D6D4D300C3683D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vanessa Grass";
+				TargetAttributes = {
+					94FDD1CA18D6D4D400C3683D = {
+						TestTargetID = 94FDD1AF18D6D4D300C3683D;
+					};
+				};
+			};
+			buildConfigurationList = 94FDD1AB18D6D4D300C3683D /* Build configuration list for PBXProject "FoodShamingLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94FDD1A718D6D4D300C3683D;
+			productRefGroup = 94FDD1B118D6D4D300C3683D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FDD1AF18D6D4D300C3683D /* FoodShamingLogin */,
+				94FDD1CA18D6D4D400C3683D /* FoodShamingLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FDD1AE18D6D4D300C3683D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDD1BE18D6D4D400C3683D /* InfoPlist.strings in Resources */,
+				94FDD1E618D6D54C00C3683D /* MainViewController.xib in Resources */,
+				94FDD1C618D6D4D400C3683D /* Images.xcassets in Resources */,
+				94A971F118D8E684004CDD3E /* loadingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FDD1C918D6D4D400C3683D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDD1D718D6D4D400C3683D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FDD1AC18D6D4D300C3683D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDD1C418D6D4D400C3683D /* AppDelegate.m in Sources */,
+				94FDD1E518D6D54C00C3683D /* MainViewController.m in Sources */,
+				94FDD1C018D6D4D400C3683D /* main.m in Sources */,
+				94A971F018D8E684004CDD3E /* loadingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FDD1C718D6D4D400C3683D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDD1D918D6D4D400C3683D /* FoodShamingLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FDD1D118D6D4D400C3683D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FDD1AF18D6D4D300C3683D /* FoodShamingLogin */;
+			targetProxy = 94FDD1D018D6D4D400C3683D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FDD1BC18D6D4D400C3683D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FDD1BD18D6D4D400C3683D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94FDD1D518D6D4D400C3683D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FDD1D618D6D4D400C3683D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FDD1DA18D6D4D400C3683D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94FDD1DB18D6D4D400C3683D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94FDD1DD18D6D4D400C3683D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodShamingLogin/FoodShamingLogin-Prefix.pch";
+				INFOPLIST_FILE = "FoodShamingLogin/FoodShamingLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94FDD1DE18D6D4D400C3683D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodShamingLogin/FoodShamingLogin-Prefix.pch";
+				INFOPLIST_FILE = "FoodShamingLogin/FoodShamingLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94FDD1E018D6D4D400C3683D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodShamingLogin.app/FoodShamingLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodShamingLogin/FoodShamingLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FoodShamingLoginTests/FoodShamingLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94FDD1E118D6D4D400C3683D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodShamingLogin.app/FoodShamingLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodShamingLogin/FoodShamingLogin-Prefix.pch";
+				INFOPLIST_FILE = "FoodShamingLoginTests/FoodShamingLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FDD1AB18D6D4D300C3683D /* Build configuration list for PBXProject "FoodShamingLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FDD1DA18D6D4D400C3683D /* Debug */,
+				94FDD1DB18D6D4D400C3683D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FDD1DC18D6D4D400C3683D /* Build configuration list for PBXNativeTarget "FoodShamingLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FDD1DD18D6D4D400C3683D /* Debug */,
+				94FDD1DE18D6D4D400C3683D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FDD1DF18D6D4D400C3683D /* Build configuration list for PBXNativeTarget "FoodShamingLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FDD1E018D6D4D400C3683D /* Debug */,
+				94FDD1E118D6D4D400C3683D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94FDD1A818D6D4D300C3683D /* Project object */;
+}

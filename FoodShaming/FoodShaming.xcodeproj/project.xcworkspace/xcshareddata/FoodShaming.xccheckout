@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B280AAA-7F1D-4250-BEF5-48E4D884E147</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FoodShaming</string>
+	<key>IDESourceControlProjectPath</key>
+	<string>FoodShaming.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4E333A8-97DA-48DA-9AC3-303DCF4536AC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vnessified/iOS-bootcamp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4E333A8-97DA-48DA-9AC3-303DCF4536AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4E333A8-97DA-48DA-9AC3-303DCF4536AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FoodShaming</string>
+		</dict>
+	</array>
+</dict>
+</plist>
