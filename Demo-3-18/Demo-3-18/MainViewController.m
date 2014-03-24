@@ -1,18 +1,23 @@
 //
-//  loadingViewController.m
-//  FoodShamingLogin
+//  MainViewController.m
+//  Demo-3-18
 //
 //  Created by Vanessa Grass on 3/18/14.
 //  Copyright (c) 2014 Vanessa Grass. All rights reserved.
 //
 
-#import "loadingViewController.h"
+#import "MainViewController.h"
 
-@interface loadingViewController ()
+@interface MainViewController ()
+
+
+@property (weak, nonatomic) IBOutlet UIView *squareView;
+
+
 
 @end
 
-@implementation loadingViewController
+@implementation MainViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +31,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +43,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+    
+    
+}
 @end

@@ -1,13 +1,13 @@
 //
-//  loadingViewController.h
+//  NewsViewController.h
 //  FoodShamingLogin
 //
-//  Created by Vanessa Grass on 3/18/14.
+//  Created by Vanessa Grass on 3/24/14.
 //  Copyright (c) 2014 Vanessa Grass. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface loadingViewController : UIViewController
+@interface NewsViewController : UIViewController
 
 @end

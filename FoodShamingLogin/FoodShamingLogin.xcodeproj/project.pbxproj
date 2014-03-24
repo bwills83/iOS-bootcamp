@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94A971F018D8E684004CDD3E /* loadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A971EE18D8E684004CDD3E /* loadingViewController.m */; };
-		94A971F118D8E684004CDD3E /* loadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A971EF18D8E684004CDD3E /* loadingViewController.xib */; };
+		94D705EE18E0233A00381FAA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D705EC18E0233A00381FAA /* NewsViewController.m */; };
+		94D705EF18E0233A00381FAA /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D705ED18E0233A00381FAA /* NewsViewController.xib */; };
 		94FDD1B418D6D4D300C3683D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B318D6D4D300C3683D /* Foundation.framework */; };
 		94FDD1B618D6D4D400C3683D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B518D6D4D400C3683D /* CoreGraphics.framework */; };
 		94FDD1B818D6D4D400C3683D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FDD1B718D6D4D400C3683D /* UIKit.framework */; };
@@ -36,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94A971ED18D8E684004CDD3E /* loadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadingViewController.h; sourceTree = "<group>"; };
-		94A971EE18D8E684004CDD3E /* loadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadingViewController.m; sourceTree = "<group>"; };
-		94A971EF18D8E684004CDD3E /* loadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loadingViewController.xib; sourceTree = "<group>"; };
+		94D705EB18E0233A00381FAA /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		94D705EC18E0233A00381FAA /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		94D705ED18E0233A00381FAA /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		94FDD1B018D6D4D300C3683D /* FoodShamingLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShamingLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FDD1B318D6D4D300C3683D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94FDD1B518D6D4D400C3683D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,9 +124,9 @@
 				94FDD1E218D6D54C00C3683D /* MainViewController.h */,
 				94FDD1E318D6D54C00C3683D /* MainViewController.m */,
 				94FDD1E418D6D54C00C3683D /* MainViewController.xib */,
-				94A971ED18D8E684004CDD3E /* loadingViewController.h */,
-				94A971EE18D8E684004CDD3E /* loadingViewController.m */,
-				94A971EF18D8E684004CDD3E /* loadingViewController.xib */,
+				94D705EB18E0233A00381FAA /* NewsViewController.h */,
+				94D705EC18E0233A00381FAA /* NewsViewController.m */,
+				94D705ED18E0233A00381FAA /* NewsViewController.xib */,
 			);
 			path = FoodShamingLogin;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				94FDD1BE18D6D4D400C3683D /* InfoPlist.strings in Resources */,
 				94FDD1E618D6D54C00C3683D /* MainViewController.xib in Resources */,
 				94FDD1C618D6D4D400C3683D /* Images.xcassets in Resources */,
-				94A971F118D8E684004CDD3E /* loadingViewController.xib in Resources */,
+				94D705EF18E0233A00381FAA /* NewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 				94FDD1C418D6D4D400C3683D /* AppDelegate.m in Sources */,
 				94FDD1E518D6D54C00C3683D /* MainViewController.m in Sources */,
 				94FDD1C018D6D4D400C3683D /* main.m in Sources */,
-				94A971F018D8E684004CDD3E /* loadingViewController.m in Sources */,
+				94D705EE18E0233A00381FAA /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

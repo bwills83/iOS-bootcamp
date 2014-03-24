@@ -5,31 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>230D22C8-D474-42EC-82D4-60B55C3F72BA</string>
+	<string>DAE328C5-49F1-4DBE-A151-9EDC924916D8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FoodShaming</string>
+	<string>Demo-3-18</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FB21692C-8839-4C87-A0EC-768C8AC0B2A1</key>
+		<string>https://github.com/vnessified/iOS-bootcamp.git</string>
+	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FoodShaming.xcodeproj/project.xcworkspace</string>
+	<string>Demo-3-18/Demo-3-18.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>03D96053-67CE-4583-B885-CCBBA84BC492</key>
-		<string>../..</string>
+		<key>FB21692C-8839-4C87-A0EC-768C8AC0B2A1</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/vnessified/iOS-bootcamp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>03D96053-67CE-4583-B885-CCBBA84BC492</string>
+	<string>FB21692C-8839-4C87-A0EC-768C8AC0B2A1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>03D96053-67CE-4583-B885-CCBBA84BC492</string>
+			<string>FB21692C-8839-4C87-A0EC-768C8AC0B2A1</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FoodShaming</string>
+			<string>iOS-bootcamp</string>
 		</dict>
 	</array>
 </dict>
